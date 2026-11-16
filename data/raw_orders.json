@@ -1,0 +1,81 @@
+[
+    {
+        "id": "ORD-1001",
+        "customerEmail": "alice@example.com",
+        "orderDate": "2026-11-01",
+        "status": "COMPLETED",
+        "items": [
+            {
+                "id": "LI-1",
+                "quantity": 2,
+                "subtotal": 99.98,
+                "product": {
+                    "id": "P-01",
+                    "name": "Wireless Mouse",
+                    "category": "Electronics",
+                    "price": 49.99
+                }
+            },
+            {
+                "id": "LI-2",
+                "quantity": 1,
+                "subtotal": 129.99,
+                "product": {
+                    "id": "P-02",
+                    "name": "Mechanical Keyboard",
+                    "category": "Electronics",
+                    "price": 129.99
+                }
+            }
+        ]
+    },
+    {
+        "id": "ORD-1002",
+        "customerEmail": "bob@example.com",
+        "orderDate": "2026-11-02",
+        "status": "PROCESSING",
+        "items": [
+            {
+                "id": "LI-3",
+                "quantity": 1,
+                "subtotal": 299.99,
+                "product": {
+                    "id": "P-03",
+                    "name": "Ergonomic Chair",
+                    "category": "Furniture",
+                    "price": 299.99
+                }
+            }
+        ]
+    },
+    {
+        "id": "ORD-1003",
+        "customerEmail": "charlie@example.com",
+        "orderDate": "2026-11-03",
+        "status": "COMPLETED",
+        "items": [
+            {
+                "id": "LI-4",
+                "quantity": 1,
+                "subtotal": 49.99,
+                "product": {
+                    "id": "P-01",
+                    "name": "Wireless Mouse",
+                    "category": "Electronics",
+                    "price": 49.99
+                }
+            },
+            {
+                "id": "LI-5",
+                "quantity": 3,
+                "subtotal": 106.5,
+                "product": {
+                    "id": "P-04",
+                    "name": "USB-C Hub",
+                    "category": "Electronics",
+                    "price": 35.5
+                }
+            }
+        ]
+    }
+]
